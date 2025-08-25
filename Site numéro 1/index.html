@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenue sur le site de France Courroie</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="hero fade-in">
+        <div class="overlay">
+            <img src="assets/logo-1647006011.jpg" alt="1courroie.fr Logo" class="logo">
+            <div class="info-link">
+                <p>Découvrez notre large gamme de courroies et bandes transporteuses sur notre site internet<a
+                        href="https://www.francecourroie.com"> www.francecourroie.com</a></p>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar fade-in">
+        <ul>
+            <li><a href="index.html" id="accueil">Accueil</a></li>
+            <li><a href="about.html">à propos de nous</a></li>
+            <li><a href="services.html">Nos Services</a></li>
+            <li><a href="bande.html">Bande transporteuse</a></li>
+            <li><a href="garnissage.html">Garnissage</a></li>
+            <li><a href="courroie.html">Courroie</a></li>
+            <li><a href="#contact">Notre Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="cards-container fade-in">
+        <a href="courroie.html" class="card-link">
+            <div class="card">
+                <img src="#" alt="Courroie">
+                <h3>Courroie</h3>
+                <p>plates, crantées, métriques</p>
+            </div>
+        </a>
+
+        <a href="bande.html" class="card-link">
+            <div class="card">
+                <img src="#" alt="Bandes Transporteuses">
+                <h3>Bandes Transporteuses</h3>
+                <p>PU, PVC, Silicone, Tissus, Métallique, Modulaire, Coton, Cuir, …</p>
+            </div>
+        </a>
+
+        <a href="garnissage.html" class="card-link">
+            <div class="card">
+                <img src="#" alt="Garnissage">
+                <h3>Garnissage</h3>
+                <p>Silicone, Mousse, Linatex, Parabolan</p>
+            </div>
+        </a>
+
+        <a href="intervention.html" class="card-link">
+        <div class="card intervention">
+            <h3>24/7</h3>
+            <p>Intervention 7 jours sur 7</p>
+        </div>
+    </a>
+    </main>
+
+    <div class="textepresent fade-in">
+        <h3>Bienvenue sur le site de France Courroie !</h3>
+        <br>
+        <strong>
+            <p>Chez France Courroie, nous sommes spécialisés dans la vente, la fabrication et la réparation de courroies
+                et
+                bandes transporteuses pour tous les secteurs d’activité: industrie, agriculture, BTP, agroalimentaire,
+                logistique…
+                Depuis plusieurs années, nous accompagnons les professionnels avec des solutions sur mesure adaptées à
+                leurs
+                besoins. Que ce soit pour une courroie de transmission, un convoyeur ou un système plus complexe, notre
+                équipe met tout en œuvre pour garantir un matériel fiable, performant et durable.
+                Nous proposons également un service de dépannage rapide, sur site ou en atelier, pour limiter vos arrêts
+                de
+                production et repartir dans les meilleurs délais.</p>
+        </strong>
+    </div>
+
+    <section class="contact-section" id="contact">
+        <div class="contact-container fade-in">
+            <div class="contact-map">
+                <div class="contact-map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2626.5832493238713!2d2.671248476355858!3d48.82801257132812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6057d77c9e7b1%3A0x3b82cdca8a28ada9!2sFrance%20Courroie!5e0!3m2!1sfr!2sfr!4v1753706216255!5m2!1sfr!2sfr&z=13"
+                        width="100%" height="400" style="border:0; border-radius:10px;" allowfullscreen=""
+                        loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+
+            <!-- FORMULAIRE DE CONTACT -->
+            <form class="contact-form fade-in">
+                <div class="form-row">
+                    <label for="civilite">Civilité *</label>
+                    <input type="text" id="civilite" name="civilite" placeholder="M. ou Mme.*" required>
+                </div>
+
+                <div class="form-row double">
+                    <div>
+                        <label for="nom">Nom *</label>
+                        <input type="text" id="nom" name="nom" placeholder="Nom*" required>
+                    </div>
+                    <div>
+                        <label for="prenom">Prénom *</label>
+                        <input type="text" id="prenom" name="prenom" placeholder="Prénom*" required>
+                    </div>
+                </div>
+                <div class="form-row double">
+                    <div>
+                        <label for="telephone">Téléphone *</label>
+                        <input type="tel" id="telephone" name="telephone" placeholder="Numéro de téléphone*" required>
+                    </div>
+                    <div>
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" placeholder="Email*" required>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <label for="message">Message *</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Votre Message*" required></textarea>
+                </div>
+
+                <button type="submit" class="send-button">Envoyer</button>
+            </form>
+
+        </div>
+    </section>
+
+
+    <footer class="main-footer fade-in">
+        <div class="footer-logo">
+            <img src="assets/France Courroie Logo.jpg" alt="Logo France Courroie" class="footer-img">
+        </div>
+        <div class="footer-info-mid fade-in">
+            <strong>
+                <ul>
+                    <a href="https://www.francecourroie.com/content/1-conditions-generales-de-vente">
+                        <li>Conditions générale de vente</li>
+                    </a>
+                    <a href="">
+                        <li>Qui sommes-nous ?</li>
+                    </a>
+                    <a href="">
+                        <li>Services de courroie | France Courroie</li>
+                    </a>
+                    <a href="">
+                        <li>Avantages du compte professionnel | France Courroie</li>
+                    </a>
+                    <a href="">
+                        <li>Contact</li>
+                    </a>
+                </ul>
+            </strong>
+        </div>
+        <div class="footer-info fade-in">
+            <strong>France Courroie</strong><br>
+            12 rue de l’Industrie, 77170 Brie-Comte-Robert<br>
+            contact@francecourroie.com<br>
+            01 60 05 28 83
+        </div>
+    </footer>
+
+    <div class="sav-box">
+        <div class="sav-title">SAV 24/7</div>
+        <div class="sav-info">
+            <span class="sav-phone">📞 01 60 05 28 83</span><br>
+            <span class="sav-hours">Horaires : 7j/7, 24h/24</span>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const fadeEls = document.querySelectorAll('.fade-in');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    }
+                });
+            }, { threshold: 0.2 });
+
+            fadeEls.forEach(el => observer.observe(el));
+        });
+    </script>
+</body>
+
+</html>

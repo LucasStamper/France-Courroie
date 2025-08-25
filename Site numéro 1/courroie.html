@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courroie</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="hero fade-in">
+        <div class="overlay">
+            <img src="assets/logo-1647006011.jpg" alt="1courroie.fr Logo" class="logo">
+            <div class="info-link">
+                <p>Découvrez notre large gamme de courroies et bandes transporteuses sur notre site internet<a
+                        href="https://www.francecourroie.com"> www.francecourroie.com</a></p>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar fade-in">
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="about.html">à propos de nous</a></li>
+            <li><a href="services.html">Nos Services</a></li>
+            <li><a href="bande.html">Bande transporteuse</a></li>
+            <li><a href="garnissage.html">Garnissage</a></li>
+            <li><a href="courroie.html" id="courroie">Courroie</a></li>
+            <li><a href="#contact">Notre Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="bande-page fade-in">
+        <h1>Courroie</h1>
+        <p>Chez France Courroie nous vous proposons une large gamme de courroie qui s'adapte à vos machines et à vos
+            produits. Voici ce que nous proposons incluant : </p>
+        <ul class="bande-list fade-in">
+            <div class="bande-image fade-in" onclick="showModal('plate')">
+                <img src="#" alt="">
+                <span>Courroie plate</span>
+            </div>
+            <div class="bande-image fade-in" onclick="showModal('trapezoidale')">
+                <img src="#" alt="">
+                <span>Courroie Trapézoïdale</span>
+            </div>
+            <div class="bande-image fade-in" onclick="showModal('crantee')">
+                <img src="#" alt="">
+                <span>Courroie crantée</span>
+            </div>
+            <div class="bande-image fade-in" onclick="showModal('metrique')">
+                <img src="#" alt="">
+                <span>Courroie métrique</span>
+            </div>
+        </ul>
+    </div>
+
+    <section class="contact-section" id="contact">
+        <div class="contact-container fade-in">
+            <div class="contact-map">
+                <div class="contact-map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2626.5832493238713!2d2.671248476355858!3d48.82801257132812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6057d77c9e7b1%3A0x3b82cdca8a28ada9!2sFrance%20Courroie!5e0!3m2!1sfr!2sfr!4v1753706216255!5m2!1sfr!2sfr&z=13"
+                        width="100%" height="400" style="border:0; border-radius:10px;" allowfullscreen=""
+                        loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+
+            <!-- FORMULAIRE DE CONTACT -->
+            <form class="contact-form fade-in">
+                <div class="form-row">
+                    <label for="civilite">Civilité *</label>
+                    <input type="text" id="civilite" name="civilite" placeholder="M. ou Mme.*" required>
+                </div>
+
+                <div class="form-row double">
+                    <div>
+                        <label for="nom">Nom *</label>
+                        <input type="text" id="nom" name="nom" placeholder="Nom*" required>
+                    </div>
+                    <div>
+                        <label for="prenom">Prénom *</label>
+                        <input type="text" id="prenom" name="prenom" placeholder="Prénom*" required>
+                    </div>
+                </div>
+                <div class="form-row double">
+                    <div>
+                        <label for="telephone">Téléphone *</label>
+                        <input type="tel" id="telephone" name="telephone" placeholder="Numéro de téléphone*" required>
+                    </div>
+                    <div>
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" placeholder="Email*" required>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <label for="message">Message *</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Votre Message*" required></textarea>
+                </div>
+
+                <button type="submit" class="send-button">Envoyer</button>
+            </form>
+
+        </div>
+    </section>
+
+
+    <footer class="main-footer fade-in">
+        <div class="footer-logo">
+            <img src="assets/France Courroie Logo.jpg" alt="Logo France Courroie" class="footer-img">
+        </div>
+        <div class="footer-info-mid fade-in">
+            <strong>
+                <ul>
+                    <a href="https://www.francecourroie.com/content/1-conditions-generales-de-vente">
+                        <li>Conditions générale de vente</li>
+                    </a>
+                    <a href="">
+                        <li>Qui sommes-nous ?</li>
+                    </a>
+                    <a href="">
+                        <li>Services de courroie | France Courroie</li>
+                    </a>
+                    <a href="">
+                        <li>Avantages du compte professionnel | France Courroie</li>
+                    </a>
+                    <a href="">
+                        <li>Contact</li>
+                    </a>
+                </ul>
+            </strong>
+        </div>
+        <div class="footer-info fade-in">
+            <strong>France Courroie</strong><br>
+            12 rue de l’Industrie, 77170 Brie-Comte-Robert<br>
+            contact@francecourroie.com<br>
+            01 60 05 28 83
+        </div>
+    </footer>
+
+    <div class="sav-box">
+        <div class="sav-title">SAV 24/7</div>
+        <div class="sav-info">
+            <span class="sav-phone">📞 01 60 05 28 83</span><br>
+            <span class="sav-hours">Horaires : 7j/7, 24h/24</span>
+        </div>
+    </div>
+
+    <div id="modal-plate" class="courroie-modal">
+            <div class="modal-content">
+                <span class="close-modal" onclick="closeModal('plate')">&times;</span>
+                <h2>Courroie plate</h2>
+                <br>
+                <p>Retrouvez toutes notre gamme de courroies plates incluant :</p>
+                <p>SPZ, SPA, SPB, SPC,...</p>
+                <p>XPZ, XPA, XPB, XPC,...</p>
+                <p>Z, A, B, C, D</p>
+                <p>Et d'autres références disponibles directement sur notre site : <br> <a href="https://www.francecourroie.com/?gad_source=1&gad_campaignid=18917420286&gbraid=0AAAAADCX4BIW4t9llLvyzp999WjwgTarf&gclid=CjwKCAjwy7HEBhBJEiwA5hQNorz2k6b3h63aCYiiobYiTRsJJeqwR-md-0hjMsm8Lc4OS_1zRhuQFxoC31sQAvD_BwE">www.francecourroie.fr</a></p>
+            </div>
+        </div>
+        <div id="modal-trapezoidale" class="courroie-modal">
+            <div class="modal-content">
+                <span class="close-modal" onclick="closeModal('trapezoidale')">&times;</span>
+                <h2>Courroie Trapézoïdale</h2>
+                <p>Détails sur la courroie trapézoïdale...</p>
+            </div>
+        </div>
+        <div id="modal-crantee" class="courroie-modal">
+            <div class="modal-content">
+                <span class="close-modal" onclick="closeModal('crantee')">&times;</span>
+                <h2>Courroie crantée</h2>
+                <p>Détails sur la courroie crantée...</p>
+            </div>
+        </div>
+        <div id="modal-metrique" class="courroie-modal">
+            <div class="modal-content">
+                <span class="close-modal" onclick="closeModal('metrique')">&times;</span>
+                <h2>Courroie métrique</h2>
+                <p>Nos courroies sont faites pour répondre à vos attentes. Fabriquées sur mesure dans notre atelier. La
+            durabilité et la qualitée sont garanties.</p>
+            </div>
+        </div>
+        
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const fadeEls = document.querySelectorAll('.fade-in');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    }
+                });
+            }, { threshold: 0.2 });
+
+            fadeEls.forEach(el => observer.observe(el));
+        });
+    </script>
+    <script>
+function showModal(type) {
+    document.getElementById('modal-' + type).classList.add('active');
+    document.body.style.overflow = 'hidden';
+}
+function closeModal(type) {
+    document.getElementById('modal-' + type).classList.remove('active');
+    document.body.style.overflow = '';
+}
+
+// Fermer le modal si on clique en dehors du contenu
+document.querySelectorAll('.courroie-modal').forEach(modal => {
+    modal.addEventListener('click', function(e) {
+        if (e.target === modal) {
+            modal.classList.remove('active');
+            document.body.style.overflow = '';
+        }
+    });
+});
+</script>
+</body>
+
+</html>
