@@ -3,7 +3,7 @@ body {
   margin: 0;
   overflow-x: hidden;
   font-family: Arial, sans-serif;
-  background-color: white;
+  background: #ffffff;
 }
 
 .header {
@@ -45,7 +45,7 @@ body {
 
 .nav a:hover {
   color: #d4a15a;
-  background: #f7f7f7;
+  background: #ffffff;
 }
 
 .logo img {
