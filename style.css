@@ -1004,7 +1004,7 @@ body {
 
   .txtfrancecourroie {
     width: 90%; 
-    height: auto;/* prend 90% de l’écran */
+    height: auto;
     max-width: 320px;   /* même largeur max que tes cards */
     margin: 0 auto;     /* centre horizontalement */
     padding: 10px;
@@ -1014,11 +1014,11 @@ body {
 
   .txtfrancecourroie h2 {
     text-align: center;
-    font-size: 18px;
+    font-size: 14px;
   }
 
   .txtfrancecourroie p {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.5;
   }
 
@@ -1167,6 +1167,7 @@ body {
   }
 
 }
+
 
 
 
