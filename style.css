@@ -1004,7 +1004,7 @@ body {
 
   .texte-france-courroie {
   width: 90%;           /* réduit la largeur sur mobile */
-  max-width: 600px;     /* évite que ce soit trop large */
+  max-width: 90vw;     /* évite que ce soit trop large */
   margin: 0 auto;       /* centre la card */
   padding: 15px;        /* évite que le texte touche les bords */
   box-sizing: border-box;
@@ -1154,3 +1154,4 @@ body {
   }
 
 }
+
