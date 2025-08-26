@@ -52,20 +52,20 @@
             techniciens</p>
     </div>
     <br>
-    <div class="special-card-france-courroie">
-        <h1>Garnissage Courroie</h1>
-        <p class="intro-text">Pour courroie :</p>
-        <ul class="special-list grid-list">
-            <li>Courroie Plate</li>
-            <li>Courroie Trapézoïdale</li>
-            <li>Courroie dentée</li>
-            <li>Courroie Plyuréthane (PU)</li>
-            <li>Courroie Cuir</li>
-            <li>Courroie Ronde</li>
-        </ul>
-        <p class="bottom-extra">Diverses pièces métalliques, mousse.<br>
-            Disponible à la demande.</p>
-    </div>
+            <div class="special-card-france-courroie">
+                <h1>Garnissage Courroie</h1>
+                <p class="intro-text">Pour courroie :</p>
+                <ul class="special-list grid-list">
+                    <li>Courroie Plate</li>
+                    <li>Courroie Trapézoïdale</li>
+                    <li>Courroie dentée</li>
+                    <li>Courroie Plyuréthane (PU)</li>
+                    <li>Courroie Cuir</li>
+                    <li>Courroie Ronde</li>
+                </ul>
+                <p class="bottom-extra">Diverses pièces métalliques, mousse.<br>
+                    Disponible à la demande.</p>
+            </div>
     <footer class="main-footer fade-in">
         <div class="footer-logo">
             <img src="assets/France Courroie Logo.jpg" alt="Logo France Courroie" class="footer-img">
@@ -127,6 +127,24 @@
                 document.querySelectorAll('.expertise-item').forEach(i => i.classList.remove('active'));
                 // Ajoute .active à la case cliquée
                 this.classList.add('active');
+            });
+        });
+    </script>
+
+    <script>
+        const burger = document.getElementById('burger-menu');
+        const nav = document.getElementById('main-nav');
+
+        burger.addEventListener('click', () => {
+            burger.classList.toggle('open');  // animation du burger
+            nav.classList.toggle('open');     // ouverture du menu
+        });
+
+        // Fermer le menu en cliquant sur un lien
+        nav.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                nav.classList.remove('open');
+                burger.classList.remove('open');
             });
         });
     </script>

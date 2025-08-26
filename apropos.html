@@ -49,75 +49,61 @@
     </div>
     <br>
 
-    <div class="textfc">
-        <p>La société France Courroie </p>
-    </div>
-    <!-- Trois cards simples pour les catégories, avec descriptions et listes -->
-    <div class="expertise-simple-section">
-        <div class="expertise-simple-grid">
-            <div class="expertise-simple-card">
-                <div class="expertise-simple-title"><h2>Courroie</h2></div>
-                <div class="expertise-simple-desc">
-                    <p>
-                        Nous proposons une large gamme de courroies adaptées à tous les besoins industriels et
-                        agricoles :
-                    </p>
-                    <ul>
-                        <li>Courroie plate</li>
-                        <li>Courroie trapézoïdale</li>
-                        <li>Courroie dentée</li>
-                        <li>Courroie polyuréthane</li>
-                        <li>Courroie en cuir</li>
-                        <li>Courroie ronde</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="expertise-simple-card">
-                <div class="expertise-simple-title"><h2>Garnissage</h2></div>
-                <div class="expertise-simple-desc">
-                    <p>
-                        Nos solutions de garnissage améliorent l’adhérence et la longévité de vos équipements :
-                    </p>
-                    <ul>
-                        <li>Garnissage caoutchouc</li>
-                        <li>Garnissage PVC</li>
-                        <li>Garnissage PU (polyuréthane)</li>
-                        <li>Garnissage sur tambour</li>
-                        <li>Garnissage sur rouleau</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="expertise-simple-card">
-                <div class="expertise-simple-title"><h2>Bandes Transporteuses</h2></div>
-                <div class="expertise-simple-desc">
-                    <p>
-                        Bandes transporteuses robustes pour tous secteurs, adaptées à chaque application :
-                    </p>
-                    <ul>
-                        <li>Bande textile</li>
-                        <li>Bande caoutchouc</li>
-                        <li>Bande PVC</li>
-                        <li>Bande PU (polyuréthane)</li>
-                        <li>Bande modulaire</li>
-                        <li>Bande à tasseaux ou à profils</li>
-                    </ul>
-                </div>
-            </div>
+    <div class="txtfrancecourroie-propos">
+        <div class="texte-france-courroie-propos">
+            <h2>Bienvenue sur le site de France Courroie</h2>
+            <p>
+                <span>À propos de France Courroie</span>
+                <br>
+                <br>
 
-            <div class="expertise-simple-card">
-                <div class="expertise-simple-title"><h2>Conception et Réalisations</h2></div>
-                <div class="expertise-simple-desc">
-                    <p>
-                        Conception et réalisation de convoyeurs neufs sur mesure dans notre ateliers et fait par nos techniciens agrées.
-                    </p>
-                    <ul>
-                        <li>Convoyeur à Bande</li>
-                        <li>Convoyeur à Rouleau</li>
-                        <li>Convoyeur Courbe</li>
-                        <p>Nous consulter en cas de besoin via notre formulaire de contact ou alors au numéro présent dans l'encadré en bas à droite de votre écran.</p>
-                    </ul>
-                </div>
-            </div>
+                Depuis sa création, France Courroie s’est imposée comme un acteur incontournable dans la fabrication, la
+                vente et la réparation de courroies de transmission et de bandes transporteuses. Basée en Île-de-France,
+                l’entreprise accompagne depuis plusieurs années les professionnels de tous secteurs — industrie,
+                logistique, agroalimentaire, BTP ou encore agriculture — en leur proposant des solutions fiables et
+                adaptées à leurs besoins.
+
+                Notre savoir-faire repose sur une <span>double expertise</span> :
+
+                la distribution d’une large gamme de courroies et bandes transporteuses de qualité, sélectionnées auprès
+                de fabricants reconnus,
+
+                et un atelier spécialisé capable de réaliser des fabrications sur mesure, du garnissage de tambours à la
+                réparation et maintenance directement sur site.
+                <br>
+                <br>
+                <span>Notre histoire</span>
+                <br>
+                <br>
+
+                Créée par une équipe de techniciens passionnés, France Courroie a grandi avec une idée simple : offrir
+                aux professionnels un partenaire de proximité capable de répondre rapidement à toutes les problématiques
+                liées aux systèmes de transmission et de convoyage.
+                Au fil des années, nous avons développé un réseau de clients fidèles et renforcé nos compétences pour
+                intervenir dans des environnements toujours plus exigeants.
+                <br>
+                <br>
+                <span>Nos engagements </span>
+                <br>
+                <br>
+                Chez France Courroie, nous mettons un point d’honneur à allier qualité, réactivité et service client :
+
+                Un stock permanent de courroies et de bandes prêtes à l’emploi,
+
+                Un dépannage rapide disponible 24h/24 et 7j/7 pour limiter les arrêts de production,
+
+                Des solutions sur mesure, adaptées aux besoins spécifiques de chaque client,
+
+                Une équipe experte à l’écoute et disponible pour conseiller et accompagner nos partenaires.
+                <br>
+                <br>
+                <span>Une vision tournée vers l’avenir</span>
+                <br>
+                <br>
+                Notre ambition est de continuer à développer notre expertise, en intégrant des technologies innovantes
+                et en élargissant notre gamme de produits. Toujours proches de nos clients, nous restons fidèles à notre
+                mission : garantir des solutions fiables et durables pour vos transmissions et convoyages.
+            </p>
         </div>
     </div>
     <footer class="main-footer fade-in">
@@ -181,6 +167,24 @@
                 document.querySelectorAll('.expertise-item').forEach(i => i.classList.remove('active'));
                 // Ajoute .active à la case cliquée
                 this.classList.add('active');
+            });
+        });
+    </script>
+
+    <script>
+        const burger = document.getElementById('burger-menu');
+        const nav = document.getElementById('main-nav');
+
+        burger.addEventListener('click', () => {
+            burger.classList.toggle('open');  // animation du burger
+            nav.classList.toggle('open');     // ouverture du menu
+        });
+
+        // Fermer le menu en cliquant sur un lien
+        nav.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                nav.classList.remove('open');
+                burger.classList.remove('open');
             });
         });
     </script>
