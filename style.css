@@ -1058,8 +1058,9 @@ body {
     margin: 20px auto;
     text-align: left;
     right: unset;
-    width: 90%;
-    left: 50%;
+    width: 140px;
+    left: 10%;
+    transform: translateX(-100%);
   }
 
   .expertise-simple-section {
