@@ -1002,7 +1002,7 @@ body {
     gap: 10px;
   }
 
-  .txtfrancecourroie {
+  .textefrancecourroie {
     width: 90%;              /* ne prend pas toute la largeur */
     max-width: 600px;        /* limite au cas où */
     margin: 0 auto;          /* centre horizontalement */
@@ -1011,13 +1011,13 @@ body {
     box-sizing: border-box;  /* garantit que padding est inclus dans la largeur */
   }
 
-  .txtfrancecourroie p {
+  .textefrancecourroie p {
     font-size: 14px;
     line-height: 1.5;
     text-align: justify;     /* ou center si tu veux centrer */
   }
 
-  .txtfrancecourroie h2 {
+  .textefrancecourroie h2 {
     font-size: 18px;
     text-align: center;
   }
@@ -1167,4 +1167,5 @@ body {
   }
 
 }
+
 
