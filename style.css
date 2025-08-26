@@ -1004,7 +1004,7 @@ body {
 
   .textefrancecourroie {
     width: 90%;              /* ne prend pas toute la largeur */
-    max-width: 600px;        /* limite au cas où */
+    max-width: 200px;        /* limite au cas où */
     margin: 0 auto;          /* centre horizontalement */
     padding: 10px;           /* espace intérieur pour éviter le collage aux bords */
     min-height: auto;        /* remet normal si tu avais fixé une min-height gênante */
@@ -1167,5 +1167,6 @@ body {
   }
 
 }
+
 
 
