@@ -1085,7 +1085,7 @@ body {
     gap: 10px;
   }
 
-  .txtfrancecourroie {
+  .txtfrancecourroie, .txtfrancecourroie-propos {
     width: 100%;
     height: auto;
     max-width: 98vw;
