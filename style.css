@@ -1002,21 +1002,23 @@ body {
     gap: 10px;
   }
 
-  .texte-france-courroie {
-  width: 90%;           /* réduit la largeur sur mobile */
-  max-width: 90vw;     /* évite que ce soit trop large */
-  margin: auto;       /* centre la card */
-  padding: 15px;        /* évite que le texte touche les bords */
-  box-sizing: border-box;
-}
+  .txtfrancecourroie {
+        width: 90vw;           /* largeur 90% de la fenêtre */
+        max-width: 90vw;       /* évite les débordements */
+        margin: 30px auto;     /* centre horizontalement */
+        padding: 16px;         /* espace interne */
+        box-sizing: border-box;/* inclut le padding dans la largeur */
+        text-align: center;    /* centrage du texte */
+    }
+
+    .texte-france-courroie {
+        max-width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
 
   .texte-france-courroie h2 {
     font-size: 1.3em;
-  }
-
-  .texte-france-courroie {
-    margin-left: 0;
-    font-size: 1em;
   }
 
   .cards-section {
@@ -1053,16 +1055,14 @@ body {
   }
 
   .sav-box {
-  position: fixed;
-  bottom: 20px;
-  left: 0%;                   /* centre par rapport à l’écran */
-  transform: translateX(-50%); /* vrai centrage */
-  width: 90%;                  /* prend 90% de l’écran */
-  max-width: 350px;            /* ne dépasse jamais trop large */
-  text-align: center;
-  margin: 0;
-  right: auto;                 /* supprime forçage à droite */
-}
+        position: fixed;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 10px;
+        width: 90vw;
+        min-width: unset;
+        padding: 12px 10px;
+    }
 
   .expertise-simple-section {
     padding: 0 2vw;
@@ -1154,5 +1154,6 @@ body {
   }
 
 }
+
 
 
