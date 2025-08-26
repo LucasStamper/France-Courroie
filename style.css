@@ -981,7 +981,7 @@ body {
 }
 
 /* --- OPTIMISATION DES BLOCS --- */
-@media (max-width: 900px) {
+@media (max-width: 768px) {
   .image-diagonal-container img {
     margin-top: 40px;
     /* décale l’image vers le bas */
@@ -1055,12 +1055,21 @@ body {
   }
 
   .sav-box {
-    margin: 20px auto;
-    text-align: left;
-    right: unset;
-    width: 70px;
+    position: fixed;
+    bottom: 20px;
+    /* espace en bas de l’écran */
     left: 50%;
-    transform: translateX(-100%);
+    /* position centrée */
+    transform: translateX(-50%);
+    /* vrai centrage */
+    width: 90%;
+    /* largeur adaptée au mobile */
+    max-width: 400px;
+    /* optionnel : limite sur grands mobiles */
+    text-align: center;
+    /* centre le texte à l’intérieur */
+    margin: 0;
+    /* supprime marges parasites */
   }
 
   .expertise-simple-section {
@@ -1151,5 +1160,4 @@ body {
     font-size: 0.92em;
     padding: 8px 4px;
   }
-
 }
