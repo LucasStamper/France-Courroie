@@ -1215,6 +1215,26 @@ body {
   }
 }
 
+.special-card-france-courroie {
+  width: 90%;
+  /* prend presque tout l’écran */
+  max-width: 320px;
+  /* même largeur que les autres cards */
+  margin: 15px auto;
+  /* centre horizontalement */
+  padding: 20px;
+  text-align: center;
+  /* optionnel : recentre ton texte */
+}
+
+.special-card-france-courroie h1 {
+  font-size: 1.5em;
+}
+
+.special-card-france-courroie h5 {
+  font-size: 0.9em;
+}
+
 /* --- Amélioration générale mobile --- */
 @media (max-width: 500px) {
   .logo img {
