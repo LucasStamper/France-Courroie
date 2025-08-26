@@ -1002,27 +1002,25 @@ body {
     gap: 10px;
   }
 
-  .texte-france-courroie {
-    width: 90%;
-    /* réduit la largeur sur mobile */
-    max-width: 600px;
-    /* évite que ce soit trop large */
-    min-height: 400px;
-    margin: 0 auto;
-    /* centre la card */
-    padding: 15px;
-    /* évite que le texte touche les bords */
-    box-sizing: border-box;
+  .txtfrancecourroie {
+    width: 90%;              /* ne prend pas toute la largeur */
+    max-width: 600px;        /* limite au cas où */
+    margin: 0 auto;          /* centre horizontalement */
+    padding: 10px;           /* espace intérieur pour éviter le collage aux bords */
+    min-height: auto;        /* remet normal si tu avais fixé une min-height gênante */
+    box-sizing: border-box;  /* garantit que padding est inclus dans la largeur */
   }
 
- .txtfrancecourroie p {
-        font-size: 14px;   /* réduit le texte */
-        line-height: 1.4;  /* espace vertical correct */
-    }
+  .txtfrancecourroie p {
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: justify;     /* ou center si tu veux centrer */
+  }
 
-    .txtfrancecourroie h2 {
-        font-size: 18px;   /* réduit le titre */
-    }
+  .txtfrancecourroie h2 {
+    font-size: 18px;
+    text-align: center;
+  }
 
   .texte-france-courroie {
     margin-left: 0;
@@ -1169,3 +1167,4 @@ body {
   }
 
 }
+
