@@ -981,7 +981,7 @@ body {
 }
 
 /* --- OPTIMISATION DES BLOCS --- */
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .image-diagonal-container img {
     margin-top: 40px;
     /* décale l’image vers le bas */
@@ -1004,11 +1004,11 @@ body {
 
   .textefrancecourroie {
     width: 90%;              /* ne prend pas toute la largeur */
-    max-width: 600px;        /* limite au cas où */
-    margin: auto;          /* centre horizontalement */
-    padding: 10px;           /* espace intérieur pour éviter le collage aux bords */
-    min-height: 400px;        /* remet normal si tu avais fixé une min-height gênante */
+    max-width: 320px;        /* limite au cas où */
+    margin: 0 auto;          /* centre horizontalement */
+    padding: 10px;           /* espace intérieur pour éviter le collage aux bords */        /* remet normal si tu avais fixé une min-height gênante */
     box-sizing: border-box;  /* garantit que padding est inclus dans la largeur */
+    text-align: justify;
   }
 
   .textefrancecourroie p {
@@ -1165,6 +1165,7 @@ body {
   }
 
 }
+
 
 
 
