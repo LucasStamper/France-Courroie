@@ -545,6 +545,67 @@ body {
   padding: 0 20px;
 }
 
+.special-card-france-courroie {
+  background: #c99e65;
+  color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+  padding: 30px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+  width: 95%;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.special-card-france-courroie h1 {
+  font-size: 1.8em;
+  margin: 0 0 10px 0;
+  color: #fff;
+}
+
+.special-card-france-courroie h5 {
+  font-size: 1em;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.special-card-france-courroie h5 h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.special-card-france-courroie ul {
+  list-style: none;
+  /* enlève les puces */
+  padding: 0;
+  margin: 0;
+}
+
+.special-card-france-courroie li {
+  margin: 6px 0;
+  padding-left: 10px;
+  position: relative;
+  margin-bottom: 10px;
+  font-size: 1.05em;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+.special-card-france-courroie li::before {
+  content: "•";
+  /* remet une puce personnalisée */
+  position: absolute;
+  left: 0;
+  color: #fff;
+  /* couleur des puces */
+}
+
 .special-card {
   background: #c99e65;
   color: #fff;
@@ -1003,13 +1064,16 @@ body {
   }
 
   .txtfrancecourroie {
-    width: 100%; 
+    width: 100%;
     height: auto;
-    max-width: 98vw;   /* même largeur max que tes cards */
-    margin: 0 auto;     /* centre horizontalement */
+    max-width: 98vw;
+    /* même largeur max que tes cards */
+    margin: 0 auto;
+    /* centre horizontalement */
     padding: 10px;
     box-sizing: border-box;
-    text-align: justify; /* tu peux mettre center si tu préfères */
+    text-align: justify;
+    /* tu peux mettre center si tu préfères */
   }
 
   .txtfrancecourroie h2 {
@@ -1167,15 +1231,3 @@ body {
   }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
