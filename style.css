@@ -1007,6 +1007,7 @@ body {
     /* réduit la largeur sur mobile */
     max-width: 600px;
     /* évite que ce soit trop large */
+    min-height: 400px;
     margin: 0 auto;
     /* centre la card */
     padding: 15px;
@@ -1014,9 +1015,14 @@ body {
     box-sizing: border-box;
   }
 
-  .texte-france-courroie h2 {
-    font-size: 1.3em;
-  }
+ .txtfrancecourroie p {
+        font-size: 14px;   /* réduit le texte */
+        line-height: 1.4;  /* espace vertical correct */
+    }
+
+    .txtfrancecourroie h2 {
+        font-size: 18px;   /* réduit le titre */
+    }
 
   .texte-france-courroie {
     margin-left: 0;
@@ -1161,4 +1167,5 @@ body {
     font-size: 0.92em;
     padding: 8px 4px;
   }
+
 }
