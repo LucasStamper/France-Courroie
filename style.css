@@ -1007,19 +1007,17 @@ body {
     max-width: 200px;        /* limite au cas où */
     margin: 0 auto;          /* centre horizontalement */
     padding: 10px;           /* espace intérieur pour éviter le collage aux bords */
-    min-height: auto;        /* remet normal si tu avais fixé une min-height gênante */
+    min-height: 400px;        /* remet normal si tu avais fixé une min-height gênante */
     box-sizing: border-box;  /* garantit que padding est inclus dans la largeur */
   }
 
   .textefrancecourroie p {
     font-size: 14px;
     line-height: 1.5;
-    text-align: justify;     /* ou center si tu veux centrer */
   }
 
   .textefrancecourroie h2 {
     font-size: 18px;
-    text-align: center;
   }
 
   .texte-france-courroie {
@@ -1167,6 +1165,7 @@ body {
   }
 
 }
+
 
 
 
