@@ -1002,27 +1002,28 @@ body {
     gap: 10px;
   }
 
-  .textefrancecourroie {
-    width: 90%;              /* ne prend pas toute la largeur */
-    max-width: 320px;        /* limite au cas où */
-    margin: 0 auto;          /* centre horizontalement */
-    padding: 10px;           /* espace intérieur pour éviter le collage aux bords */        /* remet normal si tu avais fixé une min-height gênante */
-    box-sizing: border-box;  /* garantit que padding est inclus dans la largeur */
-    text-align: justify;
+  .txtfrancecourroie {
+    width: 90%;         /* prend 90% de l’écran */
+    max-width: 320px;   /* même largeur max que tes cards */
+    margin: 0 auto;     /* centre horizontalement */
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: justify; /* tu peux mettre center si tu préfères */
   }
 
-  .textefrancecourroie p {
+  .txtfrancecourroie h2 {
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .txtfrancecourroie p {
     font-size: 14px;
     line-height: 1.5;
   }
 
-  .textefrancecourroie h2 {
-    font-size: 18px;
-  }
-
   .texte-france-courroie {
     margin-left: 0;
-    font-size: 0.8em;
+    font-size: 1em;
   }
 
   .cards-section {
@@ -1165,6 +1166,7 @@ body {
   }
 
 }
+
 
 
 
