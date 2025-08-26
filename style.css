@@ -1056,10 +1056,10 @@ body {
 
   .sav-box {
     margin: 20px auto;
-    text-align: center;
+    text-align: left;
+    right: unset;
     width: 90%;
     left: 50%;
-    transform: translateX(-50%);
   }
 
   .expertise-simple-section {
@@ -1150,4 +1150,5 @@ body {
     font-size: 0.92em;
     padding: 8px 4px;
   }
+
 }
