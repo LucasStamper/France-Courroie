@@ -25,7 +25,7 @@ body {
 
 .logo a {
   text-decoration: none;
-  height: 120px;
+  height: 70px;
   width: auto;
 }
 
@@ -283,7 +283,8 @@ body {
 .card-image {
   width: 100%;
   height: 170px;
-  overflow: hidden;;
+  overflow: hidden;
+  ;
 }
 
 .card-image img {
@@ -1109,7 +1110,8 @@ body {
     gap: 10px;
   }
 
-  .txtfrancecourroie, .txtfrancecourroie-propos {
+  .txtfrancecourroie,
+  .txtfrancecourroie-propos {
     width: 100%;
     height: auto;
     max-width: 98vw;
@@ -1262,11 +1264,15 @@ body {
   }
 
   .special-card-france-courroie {
-    width: 90%;         /* prend presque tout l’écran */
-    max-width: 320px;   /* même largeur que les autres cards */
-    margin: 15px auto;  /* centre horizontalement */
+    width: 90%;
+    /* prend presque tout l’écran */
+    max-width: 320px;
+    /* même largeur que les autres cards */
+    margin: 15px auto;
+    /* centre horizontalement */
     padding: 20px;
-    text-align: center; /* optionnel : recentre ton texte */
+    text-align: center;
+    /* optionnel : recentre ton texte */
   }
 
   .special-card-france-courroie h1 {
@@ -1275,6 +1281,11 @@ body {
 
   .special-card-france-courroie h5 {
     font-size: 0.9em;
+  }
+
+  .logo img {
+    height: 120px;
+    width: auto;
   }
 }
 
