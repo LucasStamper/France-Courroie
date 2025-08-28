@@ -1304,8 +1304,14 @@ body {
 /* --- Amélioration générale mobile --- */
 @media (max-width: 500px) {
   .logo img {
-    height: 120px;
+    height: 90px;
     width: auto;
+  }
+
+  .logo h3 {
+    margin-left: 15px;
+    color: #000000;
+    font-size: 1em;
   }
 
   .image-title {
