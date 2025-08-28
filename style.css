@@ -343,18 +343,19 @@ body {
   background: #222;
   color: #fff;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 30px 40px;
+  padding: 10px 10px;
   box-sizing: border-box;
   margin-top: 40px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
 }
 
 .footer-logo {
-  flex: 1 1 180px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  margin: 140px;
 }
 
 .footer-img {
@@ -364,7 +365,7 @@ body {
 }
 
 .footer-info-mid {
-  flex: 2 1 300px;
+  flex: auto;
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -392,8 +393,8 @@ body {
 }
 
 .footer-info {
-  flex: 1 1 200px;
-  text-align: right;
+  flex: 1 1 auto;
+  text-align: left;
   font-size: 1em;
   min-height: 200px;
   /* hauteur augmentée pour remonter le texte */
@@ -402,6 +403,21 @@ body {
   justify-content: flex-start;
   /* place le texte en haut du bloc */
   margin-bottom: 20px;
+}
+
+.footer-info a {
+  color: #c99e65;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footer-info-mid,
+.footer-info {
+  flex: unset;
+  text-align: left;
+  margin: 0;
+  min-height: unset;
+  padding: 0;
 }
 
 
@@ -1171,6 +1187,8 @@ body {
   }
 
   .main-footer {
+    width: 100%;
+    height: auto;
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -1311,7 +1329,7 @@ body {
   .logo h3 {
     margin-left: 15px;
     color: #000000;
-    font-size: 1rem; 
+    font-size: 1rem;
   }
 
   .image-title {
