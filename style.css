@@ -23,6 +23,12 @@ body {
   margin-right: 40px;
 }
 
+.logo a {
+  text-decoration: none;
+  height: 120px;
+  width: auto;
+}
+
 .nav {
   flex: 1;
   display: flex;
@@ -49,7 +55,7 @@ body {
 }
 
 .logo img {
-  height: 90px;
+  height: 120px;
   width: auto;
   border-radius: 8px;
 }
@@ -1015,11 +1021,11 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 44px;
-    height: 44px;
+    width: 54px;
+    height: 54px;
     cursor: pointer;
     margin-left: auto;
-    z-index: 1001;
+    z-index: 10000;
   }
 
   .burger-menu span {
@@ -1029,7 +1035,7 @@ body {
     margin: 4px 0;
     background: #c99e65;
     border-radius: 2px;
-    transition: 0.3s;
+    transition: ease 0.3s;
   }
 
   .nav {
@@ -1048,11 +1054,13 @@ body {
     padding: 80px 24px 24px 24px;
     gap: 18px;
     z-index: 1000;
-    transition: right 0.3s;
+    transform: translateX(100%);
+    transition: ease-in-out 0.3s;
   }
 
   .nav.open {
     right: 0;
+    transform: translateX(0);
     /* menu visible */
   }
 
@@ -1082,7 +1090,7 @@ body {
 /* --- OPTIMISATION DES BLOCS --- */
 @media (max-width: 900px) {
   .image-diagonal-container img {
-    margin-top: 40px;
+    margin-top: 10px;
     /* décale l’image vers le bas */
     width: 100%;
     /* s’assure qu’elle reste responsive */
@@ -1273,7 +1281,8 @@ body {
 /* --- Amélioration générale mobile --- */
 @media (max-width: 500px) {
   .logo img {
-    height: 40px;
+    height: 70px;
+    width: auto;
   }
 
   .image-title {
