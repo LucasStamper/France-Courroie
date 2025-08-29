@@ -1193,13 +1193,14 @@ body {
     align-items: center;
     text-align: center;
     padding: 18px 4vw;
+    height: unset;
     gap: 18px;
   }
 
   .footer-info {
     text-align: center;
     min-height: unset;
-    margin-bottom: 80px;
+    margin-bottom: 140px;
   }
 
   .footer-logo {
@@ -1347,10 +1348,4 @@ body {
     padding: 8px 4px;
   }
 
-
 }
-
-
-
-
-
