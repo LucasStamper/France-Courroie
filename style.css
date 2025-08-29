@@ -1119,7 +1119,7 @@ body {
 /* --- OPTIMISATION DES BLOCS --- */
 @media (max-width: 900px) {
   .image-diagonal-container img {
-    margin-top: 10px;
+    margin-bottom: 40px;
     /* décale l’image vers le bas */
     width: 100%;
     /* s’assure qu’elle reste responsive */
@@ -1127,8 +1127,9 @@ body {
   }
 
   .image-title {
-    font-size: 1.3em;
+    font-size: 1.4em;
     padding: 0 8px;
+    margin-bottom: 30px;
   }
 
   .intro-row {
@@ -1329,7 +1330,7 @@ body {
 /* --- Amélioration générale mobile --- */
 @media (max-width: 500px) {
   .logo img {
-    height: 50px;
+    height: 80px;
     width: auto;
   }
 
