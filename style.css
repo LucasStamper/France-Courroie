@@ -932,7 +932,6 @@ body {
 @media (max-width: 600px) {
   .contact-form-section {
     max-width: 98vw;
-    padding: 0 2vw;
   }
 
   .contact-submit {
@@ -1269,7 +1268,6 @@ body {
 
   .contact-form-section {
     max-width: 98vw;
-    padding: 0 2vw;
   }
 
   .contact-form-header {
