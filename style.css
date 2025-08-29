@@ -1188,12 +1188,11 @@ body {
 
   .main-footer {
     width: 100%;
-    height: 600px;
+    height: 800px;
     flex-direction: column;
     align-items: center;
     text-align: center;
     padding: 18px 4vw;
-    height: unset;
     gap: 18px;
   }
 
@@ -1350,3 +1349,4 @@ body {
 
 
 }
+
