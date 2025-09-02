@@ -890,7 +890,7 @@ body {
 .contact-input {
   width: 100%;
   padding: 12px 16px;
-  border: none;
+  border: 4px solid black;
   border-radius: 10px;
   background: #f7f7f7;
   font-size: 1em;
@@ -901,13 +901,14 @@ body {
 .contact-textarea {
   width: 100%;
   padding: 18px;
-  border: none;
+  border: 4px solid black;
   border-radius: 16px;
-  background: #f7f7f7;
+  background: #ffffff;
   font-size: 1em;
   min-height: 120px;
   resize: vertical;
   box-sizing: border-box;
+
 }
 
 .contact-submit {
